@@ -1,0 +1,2 @@
+rImgDiv = col-lg-4 col-md-5 col-sm-12 order-sm-last order-lg-first
+lImgDiv = col-lg-4 col-md-5

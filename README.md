@@ -28,11 +28,11 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 * [x] použitý carousel nebo hero s obrázkem
 * [x] vytvořený formulář (kontaktní, registrační)
 * [x] sticky záhlaví stránky s menu
-* [ ] zápatí stránky (např. https://mdbootstrap.com/docs/jquery/navigation/footer/#advanced)
+* [x] zápatí stránky (např. https://mdbootstrap.com/docs/jquery/navigation/footer/#advanced)
 * [ ] modifikovaný styl Bootstrapu (https://bootstrap.build/themes, https://bootstrap.build/app , https://mdbootstrap.com/docs/jquery/getting-started/installation-guide/ )
 
 ### Estetická kritéria
-* [ ] stránka je hezká
+* [krása_je_subjektivní] stránka je hezká
 * [ ] prvky na sobě nejsou nalepené a je mezi nimi rozumná mezera
 
 ## Reference

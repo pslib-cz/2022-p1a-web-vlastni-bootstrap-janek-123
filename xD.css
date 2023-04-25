@@ -1,7 +1,42 @@
+/* TO DO:
+    reduce the angle of testB and testS based on screen size
+*/
+
 .bg-purple-light {
-    background-color: #cfb9ed;
+    /*background-color: #cfb9ed;*/
+    background-color: white;
 }
 
 .bg-purple-dark {
     background-color: #6415d1;
+}
+
+.testS {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    -webkit-clip-path: polygon(0% 0%, 100% 10%, 100% 10%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 7%, 100% 92%, 0% 100%);
+}
+
+.testB {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    -webkit-clip-path: polygon(0% 0%, 100% 10%, 100% 10%, 0% 100%);
+    clip-path: polygon(0% 5%, 100% 0%, 100% 100%, 0% 95%);
+}
+
+.bg-third {
+    background: linear-gradient(to bottom,
+            white 50%,
+            #6415d1 50%);
+}
+
+.bg-image {
+    background-image: url(/Assets/1012514.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }

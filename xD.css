@@ -17,7 +17,7 @@
     width: 100%;
     padding: 20px;
     -webkit-clip-path: polygon(0% 0%, 100% 10%, 100% 10%, 0% 100%);
-    clip-path: polygon(0% 0%, 100% 7%, 100% 92%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 7%, 100% 93%, 0% 100%);
 }
 
 .testB {
@@ -30,13 +30,18 @@
 }
 
 .bg-third {
-    background: linear-gradient(to bottom,
-            white 50%,
-            #6415d1 50%);
+    background: linear-gradient(to bottom, white 50%, #6415d1 50%);
 }
 
 .bg-image {
-    background-image: url(/Assets/1012514.jpg);
+    background-image: url(/Assets/cdwQUCvh.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.h-main {
+    font-size: 100px;
 }

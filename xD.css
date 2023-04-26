@@ -34,7 +34,7 @@
 }
 
 .bg-image {
-    background-image: url(Assets/download.png);
+    background-image: url(Assets/MainBg.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

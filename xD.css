@@ -1,19 +1,9 @@
-/* TO DO:
-    reduce the angle of testB and testS based on screen size
-*/
-
 .bg-purple-light {
-    background-color: white;
     background-color: lightgray;
 }
 
 .bg-purple-dark {
-    /*background-color: #6415d1;*/
     background-color: white;
-}
-
-.bg-third {
-    background: linear-gradient(to bottom, white 50%, lightgray 50%);
 }
 
 .bg-image {

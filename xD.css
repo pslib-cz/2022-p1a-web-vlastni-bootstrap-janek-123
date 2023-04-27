@@ -3,34 +3,17 @@
 */
 
 .bg-purple-light {
-    /*background-color: #cfb9ed;*/
     background-color: white;
+    background-color: lightgray;
 }
 
 .bg-purple-dark {
-    background-color: #6415d1;
-}
-
-.testS {
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-    padding: 20px;
-    -webkit-clip-path: polygon(0% 0%, 100% 10%, 100% 10%, 0% 100%);
-    clip-path: polygon(0% 0%, 100% 7%, 100% 93%, 0% 100%);
-}
-
-.testB {
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-    padding: 20px;
-    -webkit-clip-path: polygon(0% 0%, 100% 10%, 100% 10%, 0% 100%);
-    clip-path: polygon(0% 5%, 100% 0%, 100% 100%, 0% 95%);
+    /*background-color: #6415d1;*/
+    background-color: white;
 }
 
 .bg-third {
-    background: linear-gradient(to bottom, white 50%, #6415d1 50%);
+    background: linear-gradient(to bottom, white 50%, lightgray 50%);
 }
 
 .bg-image {

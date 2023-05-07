@@ -18,3 +18,7 @@
 .h-main {
     font-size: 100px;
 }
+
+p {
+    text-align: justify;
+}

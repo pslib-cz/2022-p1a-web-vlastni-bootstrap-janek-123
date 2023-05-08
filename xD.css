@@ -22,3 +22,14 @@
 p {
     text-align: justify;
 }
+
+.hText {
+    width: 400px;
+}
+
+@media screen and (max-width: 400px) {
+    .hText {
+        /*background-color: lightblue;*/
+        width: 90vw;
+    }
+}

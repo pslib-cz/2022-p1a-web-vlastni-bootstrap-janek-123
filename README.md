@@ -16,7 +16,7 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 * [ ] Soubory webu jsou členěny do složek (např. ``/assets/images``, ``/assets/icons``)
 * [x] Soubory webu se nacházejí v GitHubovém repozitáři
 * [x] V repozitáři se soubory ocitly pomocí commitů a pushů a těch je více než 3, rozprostřených do celé doby vypracovávání zadání
-* [x] Web je dostupný přes [Github Pages](https://pages.github.com/) (do README.md přidejte odkaz)
+* [x] Web je dostupný přes [Github Pages](https://pages.github.com/) (do README.md přidejte odkaz: https://pslib-cz.github.io/2022-p1a-web-vlastni-bootstrap-janek-123.io/)
 * [ ] Celková načítaná velikost jednotlivých stránek nepřesahuje jednotky MiB
 * [ ] Obrázky mají rozumnou velikost pro mobilní telefon - tj. odpovídají skutečné velikost vymezeného prostoru
 

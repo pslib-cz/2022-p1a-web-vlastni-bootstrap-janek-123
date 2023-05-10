@@ -12,8 +12,8 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 * [x] Alespoň 3 vzájemně prolinkované stránky nebo jedna singlepage s odkazy na své sekce
 * [doufám] HTML kód je validní bez chyb ve [validátoru](https://validator.w3.org/)
 * [doufám] HTML značky dávají smysl, kód obsahuje ``<article>``, ``<section>``, ``<header>``, ``<nav>``.
-* [ ] Navigace mezi stránkami je tvořená přes ``<nav><ul><li><a>`` a je funkční i po zkopírování na lokální disk
-* [ ] Soubory webu jsou členěny do složek (např. ``/assets/images``, ``/assets/icons``)
+* [x] Navigace mezi stránkami je tvořená přes ``<nav><ul><li><a>`` a je funkční i po zkopírování na lokální disk
+* [x] Soubory webu jsou členěny do složek (např. ``/assets/images``, ``/assets/icons``)
 * [x] Soubory webu se nacházejí v GitHubovém repozitáři
 * [x] V repozitáři se soubory ocitly pomocí commitů a pushů a těch je více než 3, rozprostřených do celé doby vypracovávání zadání
 * [x] Web je dostupný přes [Github Pages](https://pages.github.com/) (do README.md přidejte odkaz: https://pslib-cz.github.io/2022-p1a-web-vlastni-bootstrap-janek-123.io/)

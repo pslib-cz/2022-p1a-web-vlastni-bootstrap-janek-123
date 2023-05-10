@@ -7,7 +7,7 @@
 }
 
 .bg-image {
-    background-image: url(Assets/Images/MainBg.webp);
+    background-image: url(Assets/MainBg.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

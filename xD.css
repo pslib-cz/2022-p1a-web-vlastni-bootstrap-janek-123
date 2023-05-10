@@ -7,7 +7,7 @@
 }
 
 .bg-image {
-    background-image: url(Assets/MainBg.webp);
+    background-image: url(Assets/Images/MainBg.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -29,7 +29,6 @@ p {
 
 @media screen and (max-width: 400px) {
     .hText {
-        /*background-color: lightblue;*/
         width: 90vw;
     }
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Školní stránka</title>
+    <title>CGI</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
@@ -22,35 +22,39 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
 
-            <a class="nav-link active" aria-current="page" href="#t0">Co je to CGI</a>
-            <a class="nav-link" href="#t1">ve filmech</a>
-            <a class="nav-link" href="#t2">ve hrách</a>
-            <a class="nav-link" href="#t3">v jiných odvětvích</a>
-            <a class="nav-link" href="#t4">fyzikální jevy</a>
-            <a class="nav-link" href="#t5">Obrázky generované pomocí AI</a>
-            <a class="nav-link" href="#t9">Contact Us</a>
+            <li><a class="nav-link active" aria-current="page" href="#t0">Co je to CGI</a></li>
+            <li><a class="nav-link" href="#t1">Ve filmech</a></li>
+            <li><a class="nav-link" href="#t2">Ve hrách</a></li>
+            <li><a class="nav-link" href="#t3">V jiných odvětvích</a></li>
+            <li><a class="nav-link" href="#t4">Fyzikální jevy</a></li>
+            <li><a class="nav-link" href="#t5">Obrázky generované pomocí AI</a></li>
+            <li><a class="nav-link" href="#t9">Kontakt</a></li>
 
           </div>
         </div>
+        
       </div>
     </nav>
 
-    <div class="bg-image">
+    <header class="bg-image">
       <div class="d-flex flex-column align-items-center justify-content-center text-white" style="height: 75vh;">
         <h1 class="h-main">CGI</h1>
         <p class="p-2 text-center text-w hText">Fascinující technologie, která umožňuje vytvářet neuvěřitelné vizuální efekty a scény, které by jinak nebyly možné, a která se stala klíčovým prvkem mnoha populárních filmů</p>
       </div>
-    </div>
+    </header>
 
+    <main>
     <!-- Co je to CGI  -->
-    <div class="p-3 bg-purple-dark" id="t0">
+    <section class="p-3 bg-purple-dark" id="t0">
       <div class="container mt-3 mb-3 text-dark">
 
         <div class="row">
-          <div class="col-sm">
+          
+          <article class="col-sm">
             <h3>Co je to CGI</h3>
             <p>
               CGI je zkratka pro “Computer-Generated Imagery”, která stojí pro vytváření vizuálního obsahu pomocí počítače. 
@@ -58,21 +62,22 @@
               Zároveň CGI nemusí být pouze ve 3D, ale i ve 2D. Mnoho lidí si myslí že se CGI používá pouze ve filmech a ve hrách, 
               ale není tomu tak. Dnes se CGI využívá ve mnohem větší škále odvětví, jako je například architektura nebo zdravotnictví.
             </p>
-          </div>
+          </article>
+
           <div class="col-lg-4 col-md-5">
-            <img src="Assets/img.jpg" class="img-fluid mx-auto d-block" alt="dsksdjk" width="400">
+            <img src="Assets/Images/AvatarImg.webp" class="img-fluid mx-auto d-block" alt="Obrázek znázorňující využití motion capture objeků ve filmu avatar" width="400">
           </div>
         </div>
         
       </div>      
-    </div>
+    </section>
 
     <!-- CGI ve filmech -->
-    <div class="p-3 bg-purple-light" id="t1">
+    <section class="p-3 bg-purple-light" id="t1">
       <div class="container mt-3 mb-3 text-black ">
         
         <div class="row">
-          <div class="col-md">
+          <article class="col-md">
             
             <h3>CGI ve filmech</h3>
             <p>
@@ -103,22 +108,21 @@
               Renderování této černé díry zabralo 100 hodin na každý frame. 
             </p>
 
-          </div>
+          </article>
           <div class="col-lg-4 col-md-5 col-sm-12 order-sm-last order-lg-first">
-            <img src="Assets/Pomoc.webp" class="img-fluid mx-auto d-block" alt="dsksdjk" width="400">
+            <img src="Assets/Images/Pomoc.webp" class="img-fluid mx-auto d-block" alt="Obrázek z filmu Příběh hraček 4" width="400">
           </div>
         </div>
 
       </div>
-    </div>
+    </section>
 
     <!-- CGI ve hrách -->
-    <div class="bg-purple-light">
-    <div class="p-3 bg-purple-dark testS" id="t2">
+    <section class="p-3 bg-purple-dark testS" id="t2">
       <div class="container mt-4 mb-4 text-dark">
 
         <div class="row">
-          <div class="col-sm">
+          <article class="col-sm">
             <h3> CGI ve hrách</h3>
             <p>
               Kvalita CGI ve hrách je do jisté míry závislá na kvalitě simulace světla v reálném čase, dnes dominuje společnost Nvidia se svojí technologií raytracingu zvanou RTX. 
@@ -133,28 +137,28 @@
               Postupné zvyšování výkonu domácích počítačů dalo vývojářům možnost požít různé triky k nasimulování 3D prostředí, jedna z nejlepších byla legendární hra Doom, průkopník v dnes nejpopulárnějším žánru her: střílečky z pohledu první osoby. Skutečné 3D hry se objevily až s příchodem Nintenda 64 a PlayStationu. 
             </p>
  
-          </div>
+          </article>
           <div class="col-lg-4 col-md-5">
-            <img src="Assets/Pomoc1.webp" class="img-fluid mx-auto d-block" alt="dsksdjk">
+            <img src="Assets/Images/Pomoc1.webp" class="img-fluid mx-auto d-block" alt="Technická dokonalost hry Cyberpunk 2077">
           </div>
         </div>
         
       </div>      
-    </div>
-    </div>
+    </section>
 
     <!-- CGI v jiných odvětvých -->
-    <div class="bg-third">
-    <div class="p-3 bg-purple-light text-black testB" id="t3">
+    <section class="p-3 bg-purple-light text-black testB" id="t3">
       <div class="container mt-3 mb-4">
         
         <div class="row">
-          <div class="col-sm">
+          <article class="col-sm">
             
-            <h3>CGI v jiných odvětvých</h3>
-            <p>
-              CGI je mnohem rozšířenější, než si mnoho lidí myslí v dnešní době má již přesah i do reálného světa. 
-            </p>
+            <header>
+              <h3>CGI v jiných odvětvých</h3>
+              <p>
+                CGI je mnohem rozšířenější, než si mnoho lidí myslí v dnešní době má již přesah i do reálného světa. 
+              </p>
+            </header>
 
             <div class="row text-lg-center mt-4">
               <div class="col-lg">                
@@ -180,29 +184,30 @@
               </div>
 
             </div>
-          </div>
+          </article>
           <div class="col-lg-4 col-md-5 col-sm-12 order-sm-last order-lg-first">
-            <img src="Assets/Pomoc.webp" alt="dsksdjk" class="img-fluid mx-auto d-block" width="400">
+            <img src="Assets/Images/Domecek.webp" alt="Návrh moderního domečku" class="img-fluid mx-auto d-block">
           </div>
         </div>
 
       </div>
-    </div>
-    </div>
+    </section>
 
     <!-- Simulace fyzikálních jevů -->
-    <div class="p-3 bg-purple-dark text-dark" id="t4">
+    <section class="p-3 bg-purple-dark text-dark" id="t4">
       <div class="container mt-3 mb-3">
 
-        <h3>Simulace fyzikálních jevů</h3>
-        <p>Simulovat složitější fyzikální jevy je mnohem rychlejší, levnější a přesnější než jejich ruční animace. </p>
+        <header>
+          <h3>Simulace fyzikálních jevů</h3>
+          <p>Simulovat složitější fyzikální jevy je mnohem rychlejší, levnější a přesnější než jejich ruční animace. </p>
+        </header>
 
         <div class="row text-black justify-content-center">
 
           <div class="col-lg-4 col-md-6 col-sm-8">
             <div class="card mb-3">
 
-              <img class="card-img-top" src="Assets/simulation/clothSim.jpg" alt="Card image cap">
+              <img class="card-img-top" src="Assets/Images/SimulationImages/clothSim.webp" alt="Simulovaná látka asi v blenderu idk">
               <div class="card-body">
                 <h5 class="card-title">Simulace látky</h5>
                 <p class="card-text">
@@ -219,7 +224,7 @@
           
           <div class="col-lg-4 col-md-6 col-sm-8">
             <div class="card mb-3">
-              <img class="card-img-top" src="Assets/simulation/fluidSim.jpg" alt="Card image cap">
+              <img class="card-img-top" src="Assets/Images/SimulationImages/fluidSim.webp" alt="Simulace růžové tekutiny (možná to je pouze umělecké dílo idk)">
               <div class="card-body">
                 <h5 class="card-title">Simulace tekutin</h5>
                 <p class="card-text">
@@ -237,7 +242,7 @@
 
           <div class="col-lg-4 col-md-6 col-sm-8">
             <div class="card mb-3">
-              <img class="card-img-top" src="Assets/simulation/lightSim.jpg" alt="Card image cap">
+              <img class="card-img-top" src="Assets/Images/SimulationImages/lightSim.webp" alt="Ukázka intenzity simulovaného světla ve hře">
               <div class="card-body">
                 <h5 class="card-title">Simulace světla</h5>
                 <p class="card-text">Jeden z hlavních důvodů, proč renderování jednoho framu ve filmu trvá i několik hodin a ve hrách obvykle do 10 milisekund je simulace světla. Zatímco ve hrách se často ignorují světelné zdroje které nejsou v zorném poli, nebo se používají předpřipravené textury pro světlo, které neumožňují upravovat pozici a intenzitu světelných zdrojů ve scéně. Ve filmech se používá náročný proces zvaný raytracing, jehož jednodušší podoba se používá dnes již v nějakých hrách. </p>
@@ -249,14 +254,14 @@
         </div>
         
       </div>      
-    </div>
+    </section>
 
     <!-- Obrázky generované pomocí AI -->
-    <div class="p-3 bg-purple-light bg-gradient text-black" id="t5">
+    <section class="p-3 bg-purple-light bg-gradient text-black" id="t5">
       <div class="container mt-3 mb-3">
         
         <div class="row">
-          <div class="col-sm">
+          <article class="col-sm">
             
             <h3>Obrázky generované pomocí AI</h3>
             <p>Generování se může řídit matematickými vzory a algoritmy, nebo může být použito strojové učení.  </p>
@@ -267,30 +272,30 @@
 
             <a href="gallery.html" class="btn btn-secondary mb-3">Rozšířená galerie</a> 
             
-          </div>
+          </article>
           <div class="col-lg-4 col-md-5 col-sm-12 order-sm-last order-lg-first ">
             
             <div id="AiCarousel" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
 
                 <div class="carousel-item active">
-                  <img src="Assets/AiImages/img0.webp" class="d-block w-100" alt="ani nevim co to je, ale vyhrálo to nějakou soutěž">
+                  <img src="Assets/Images/AiImages/img0.webp" class="d-block w-100" alt="ani nevim co to je, ale vyhrálo to nějakou soutěž">
                 </div>
 
                 <div class="carousel-item">
-                  <img src="Assets/AiImages/img1.webp" class="d-block w-100" alt="velmi umělecký a zajímavý obraz ... něčeho">
+                  <img src="Assets/Images/AiImages/img1.webp" class="d-block w-100" alt="velmi umělecký a zajímavý obraz ... něčeho">
                 </div>
 
                 <div class="carousel-item">
-                  <img src="Assets/AiImages/img3.webp" class="d-block w-100" alt="kočička">
+                  <img src="Assets/Images/AiImages/img3.webp" class="d-block w-100" alt="kočička">
                 </div>
 
                 <div class="carousel-item">
-                  <img src="Assets/AiImages/img5.webp" class="d-block w-100" alt="sovička">
+                  <img src="Assets/Images/AiImages/img5.webp" class="d-block w-100" alt="sovička">
                 </div>
 
                 <div class="carousel-item">
-                  <img src="Assets/AiImages/img6.webp" class="d-block w-100" alt="zase nemám ani ponětí co to je">
+                  <img src="Assets/Images/AiImages/img6.webp" class="d-block w-100" alt="zase nemám ani ponětí co to je">
                 </div>
 
               </div>
@@ -307,7 +312,8 @@
         </div>
 
       </div>
-    </div>
+    </section>
+    </main>
 
 
     <!--- Contact form -->

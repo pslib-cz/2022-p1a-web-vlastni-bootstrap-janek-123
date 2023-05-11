@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CGI</title>
-
+<!--
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
 
     <link rel="stylesheet" href="xD.css">    
+    <link rel="stylesheet" href="bootstrap.min.css">    
   </head>
 
   <body>
@@ -24,7 +26,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
+          <ul class="navbar-nav">
 
             <li><a class="nav-link active" aria-current="page" href="#t0">Co je to CGI</a></li>
             <li><a class="nav-link" href="#t1">Ve filmech</a></li>
@@ -34,7 +36,7 @@
             <li><a class="nav-link" href="#t5">Obrázky generované pomocí AI</a></li>
             <li><a class="nav-link" href="#t9">Kontakt</a></li>
 
-          </div>
+          </ul>
         </div>
         
       </div>
@@ -49,7 +51,7 @@
 
     <main>
     <!-- Co je to CGI  -->
-    <section class="p-3 bg-purple-dark" id="t0">
+    <section class="p-3" id="t0">
       <div class="container mt-3 mb-3 text-dark">
 
         <div class="row">
@@ -73,7 +75,7 @@
     </section>
 
     <!-- CGI ve filmech -->
-    <section class="p-3 bg-purple-light" id="t1">
+    <section class="p-3 bg-light" id="t1">
       <div class="container mt-3 mb-3 text-black ">
         
         <div class="row">
@@ -118,7 +120,7 @@
     </section>
 
     <!-- CGI ve hrách -->
-    <section class="p-3 bg-purple-dark testS" id="t2">
+    <section class="p-3 testS" id="t2">
       <div class="container mt-4 mb-4 text-dark">
 
         <div class="row">
@@ -147,7 +149,7 @@
     </section>
 
     <!-- CGI v jiných odvětvých -->
-    <section class="p-3 bg-purple-light text-black testB" id="t3">
+    <section class="p-3 bg-light text-black testB" id="t3">
       <div class="container mt-3 mb-4">
         
         <div class="row">
@@ -194,7 +196,7 @@
     </section>
 
     <!-- Simulace fyzikálních jevů -->
-    <section class="p-3 bg-purple-dark text-dark" id="t4">
+    <section class="p-3 text-dark" id="t4">
       <div class="container mt-3 mb-3">
 
         <header>
@@ -257,7 +259,7 @@
     </section>
 
     <!-- Obrázky generované pomocí AI -->
-    <section class="p-3 bg-purple-light bg-gradient text-black" id="t5">
+    <section class="p-3 bg-light text-black" id="t5">
       <div class="container mt-3 mb-3">
         
         <div class="row">
@@ -329,8 +331,8 @@
         <label for="floatingTextarea">Předmět</label>
       </div>
       <div class="form-floating mb-3">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px"></textarea>
-        <label for="floatingTextarea">Zpráva</label>
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea1" style="height: 100px"></textarea>
+        <label for="floatingTextarea1">Zpráva</label>
       </div>
       <div class="d-grid gap-2">
         <button onclick="OnRequestSent()" class="btn btn-primary" type="button">Odeslat</button>
@@ -358,7 +360,7 @@
       © 2023 Copyright:
       <a class="text-white" href="https://pslib-cz.github.io/2022-p1a-web-vlastni-bootstrap-janek-123.io/">2022-p1a-web-vlastni-bootstrap-janek-123.io</a>
     </div>
-    
+
   </footer>
 
   <script>

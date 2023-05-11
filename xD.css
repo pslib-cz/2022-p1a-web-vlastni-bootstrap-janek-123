@@ -1,11 +1,3 @@
-.bg-purple-light {
-    background-color: lightgray;
-}
-
-.bg-purple-dark {
-    background-color: white;
-}
-
 .bg-image {
     background-image: url(Assets/MainBg.webp);
     background-repeat: no-repeat;

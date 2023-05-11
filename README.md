@@ -1,6 +1,21 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10686116&assignment_repo_type=AssignmentRepo)
 # Vlastní web pomocí Bootstrapu
 
+-------------------------------> https://pslib-cz.github.io/2022-p1a-web-vlastni-bootstrap-janek-123.io/ <-------------------------------
+-------------------------------> https://pslib-cz.github.io/2022-p1a-web-vlastni-bootstrap-janek-123.io/ <-------------------------------
+-------------------------------> https://pslib-cz.github.io/2022-p1a-web-vlastni-bootstrap-janek-123.io/ <-------------------------------
+-------------------------------> https://pslib-cz.github.io/2022-p1a-web-vlastni-bootstrap-janek-123.io/ <-------------------------------
+-------------------------------> https://pslib-cz.github.io/2022-p1a-web-vlastni-bootstrap-janek-123.io/ <-------------------------------
+-------------------------------> https://pslib-cz.github.io/2022-p1a-web-vlastni-bootstrap-janek-123.io/ <-------------------------------
+-------------------------------> https://pslib-cz.github.io/2022-p1a-web-vlastni-bootstrap-janek-123.io/ <-------------------------------
+-------------------------------> https://pslib-cz.github.io/2022-p1a-web-vlastni-bootstrap-janek-123.io/ <-------------------------------
+-------------------------------> https://pslib-cz.github.io/2022-p1a-web-vlastni-bootstrap-janek-123.io/ <-------------------------------
+-------------------------------> https://pslib-cz.github.io/2022-p1a-web-vlastni-bootstrap-janek-123.io/ <-------------------------------
+-------------------------------> https://pslib-cz.github.io/2022-p1a-web-vlastni-bootstrap-janek-123.io/ <-------------------------------
+-------------------------------> https://pslib-cz.github.io/2022-p1a-web-vlastni-bootstrap-janek-123.io/ <-------------------------------
+-------------------------------> https://pslib-cz.github.io/2022-p1a-web-vlastni-bootstrap-janek-123.io/ <-------------------------------
+-------------------------------> https://pslib-cz.github.io/2022-p1a-web-vlastni-bootstrap-janek-123.io/ <-------------------------------
+
 Vytvořte vlastní malý tématický web pomocí HTML a CSS. Promyslete si téma, vytvořte nebo najděte grafiku, vymyslete nebo vygenerujte vlastní texty. Web může a musí být na libovolné (společensky) přijatelné téma. Pokud Vás žádné téma nenapadá, použijte téma referátu na IKT.
 
 Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které body zadání už máte splněné.
@@ -10,7 +25,7 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 ### HTML a struktura souborů
 
 * [x] Alespoň 3 vzájemně prolinkované stránky nebo jedna singlepage s odkazy na své sekce
-* [doufám] HTML kód je validní bez chyb ve [validátoru](https://validator.w3.org/)
+* [] HTML kód je validní bez chyb ve [validátoru](https://validator.w3.org/)
 * [doufám] HTML značky dávají smysl, kód obsahuje ``<article>``, ``<section>``, ``<header>``, ``<nav>``.
 * [x] Navigace mezi stránkami je tvořená přes ``<nav><ul><li><a>`` a je funkční i po zkopírování na lokální disk
 * [x] Soubory webu jsou členěny do složek (např. ``/assets/images``, ``/assets/icons``)
